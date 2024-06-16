@@ -1,0 +1,66 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/maisvendidos.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #ffffff;
+    --laranja: #EB9B00; 
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    --fonte-principal: "poppins";
+    --azul: #002f52;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+hr{
+    margin: 0;
+}
+
+.rodape{
+    background-color: var(--cor-de-fundo);
+    color: black;
+    padding: 1.5em;
+}
+.visitados-recentemente{
+    background-color: var(--branco);
+    text-align: center;
+}
+.visitados-email{ 
+    border: 1px solid var(--azul);
+    color: var(--azul);
+    background-color: transparent;
+    border-radius: 24px;
+    padding: 1em;
+    width: 90%;
+    margin: 2em 0.5em;
+
+}
+.visitados-email::placeholder{
+    font-family: var(--fonte-principal);
+    color: var(--azul);
+    background: url(./img/Email.svg) no-repeat;
+    padding: 0 2.5em;
+    font-weight: 500;
+
+}
+.visitados__titulo{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--azul);
+    padding: 1.5em 1.5em;
+    text-align: left;
+}
+.visitados__texto{
+    color: var(--azul);
+    text-align: left;
+    padding: 0 1.5em;
+    font-weight: 300;
+}

@@ -1,5 +1,7 @@
 .cabecalho{ 
     background-color: var(--branco);
+    display:flex;
+    
 }
 .cabecalho__menu-hamburguer{
     width: 24px;

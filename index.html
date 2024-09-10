@@ -1,26 +1,42 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AluraBooks</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="cabeçalho">
+            <div class="container"> 
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+                </label>
+                <ul class="container__lista">
+                    <li class="container__lista-item container__lista-titulo">Categorias</li>
+                    <li class="container__lista-item"><a href="#">Programacao</a></li>
+                    <li class="container__lista-item"><a href="#">Frontend</a></li>
+                    <li class="container__lista-item"><a href="#">infraestrutura</a></li>
+                    <li class="container__lista-item"><a href="#">business</a></li>
+                    <li class="container__lista-item"><a href="#">design & UX</a></li>
+                </ul>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraBooks</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header class="cabecalho">
-        <div class="container">
-        <span class="cabecalho__menu-hamburguer"></span>
-        <img src="img/Logo.svg" alt="logo da alura">
-    </div>
-    <div class="container"></div>
-        <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"></a>
-        <a href="#"><img src="img/Compras.svg" alt="Minhas Compras"></a>
-        <a href="#"><img src="img/Usuario.svg" alt="Meu usuario"></a>
-        <a href=""></a><a href=""></a><a href=""></a>
-    </div>
-    </header>
-</body>
+                <img src="img/Logo.svg" alt="Logo da AluraBooks" class="container__imagem">
+                <h1 class="container__titulo"><b class="container__titulo-negrito">Alura</b>Books</h1>
+            </div>
+            <div class="container">
+                <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem menu__transparente"></a>
+                <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
+                <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+            </div>
+        </header>
+    </body>
 </html>
-    
